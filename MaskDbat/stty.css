@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/coverm.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 64px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    text-align: center;
+
+}
+
+.form-box {
+    width: 380px;
+    height: 480px;
+    margin: auto;
+    background-image: linear-gradient(rgba(255, 238, 0, 0.7), rgb(255, 253, 143));
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+}
+
+.btn {
+    width: 220px;
+    position: relative;
+    margin: 35px auto;
+    /* box-shadow:0 0 20px 9px rgb(253, 143, 0); */
+
+    border-radius: 30px;
+}
+
+.btnp {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    padding: 10px 30px;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    transition: 1s;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, rgba(255, 238, 0, 0.7), rgb(158, 2, 2));
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.f {
+    top: 80px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+
+.input-f {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    color: black;
+    background: transparent;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.submit-btn {
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    margin: auto;
+    background: #ffda06;
+    display: block;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+#login {
+    left: 50px
+}
+
+#reg {
+    left: 450px;
+}
